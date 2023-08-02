@@ -1,5 +1,4 @@
 const ErrorHandler = require("./errorHandle");
-
 const succesResponse = async (res, data, next, count = null) => {
   try {
     const response = {
